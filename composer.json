@@ -1,0 +1,47 @@
+{
+    "name": "indicalabs/yii2-googleplaces",
+    "description": "The Pretty photo widget for the Yii framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","prettyphoto","images"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Venu Narukulla",
+            "email": "venu.narukulla@gmail.com"
+        }
+    ],
+    "require": {
+		"yiisoft/yii2": "~2.0.8",
+	    "bower-asset/jquery-prettyPhoto": "*"
+    },
+    
+    "require-dev": {
+    	"phpunit/phpunit": "~4.0"
+ 	 },
+ 	 
+    "autoload": {
+        "psr-4": { 
+        	"indicalabs\\prettyphoto\\": "" 
+        }
+    }
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "bower-asset/jquery-prettyPhoto",
+                "type": "bower-asset-library",
+                "version": "3.1.6",
+                "source": {
+                    "url": "https://github.com/scaron/prettyphoto",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ]
+}
