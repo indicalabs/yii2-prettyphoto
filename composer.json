@@ -23,7 +23,7 @@
         "psr-4": { 
         	"indicalabs\\prettyphoto\\": "" 
         }
-    }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
