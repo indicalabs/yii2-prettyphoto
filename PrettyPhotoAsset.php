@@ -7,6 +7,7 @@
 
 namespace indicalabs\prettyphoto;
 
+use Yii;
 use yii\web\AssetBundle;
 
 /**
