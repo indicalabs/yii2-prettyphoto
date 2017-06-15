@@ -13,7 +13,8 @@
     "require": {
 		"yiisoft/yii2": "~2.0.12",
 	    "bower-asset/jquery-prettyPhoto": "*",
-	    "npm-asset/vue-images": "~1.0.9"
+	    "npm-asset/vue": "^2.3.4",
+	    "npm-asset/vue-images": ">=1.0.9"
   	},
     
     "require-dev": {
