@@ -11,12 +11,13 @@
         }
     ],
     "require": {
-		"yiisoft/yii2": "~2.0.9",
-	    "bower-asset/jquery-prettyPhoto": "*"
-    },
+		"yiisoft/yii2": "~2.0.12",
+	    "bower-asset/jquery-prettyPhoto": "*",
+	    "npm-asset/vue-images": "~1.0.9"
+  	},
     
     "require-dev": {
-    	"phpunit/phpunit": "~4.0"
+    	"phpunit/phpunit": "~6.2.2"
  	 },
  	 
     "autoload": {
