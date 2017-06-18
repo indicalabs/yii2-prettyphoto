@@ -34,7 +34,7 @@
         {
             "type": "package",
             "package": {
-                "name": "bower-asset/jquery-prettyPhoto",
+                "name": "bower-asset/jquery-prettyphoto",
                 "type": "bower-asset-library",
                 "version": "3.1.6",
                 "source": {

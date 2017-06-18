@@ -31,7 +31,7 @@ class PrettyPhotoAsset extends AssetBundle
 // 			'yii\jui\JuiAsset',
 // 			'yii\web\JqueryAsset',
 // 	];
-	public $sourcePath = '@bower/jquery-prettyPhoto';
+	public $sourcePath = '@bower/jquery-prettyphoto';
 	public $css = [
 			'css/prettyPhoto.css',
 	];
@@ -45,7 +45,7 @@ class PrettyPhotoAsset extends AssetBundle
 	{
 		parent::init();
 		$this->publishOptions['beforeCopy'] = function ($from) {
-			$path = str_replace(realpath(Yii::getAlias('@bower') . DIRECTORY_SEPARATOR . 'jquery-prettyPhoto'), '', $from);
+			$path = str_replace(realpath(Yii::getAlias('@bower') . DIRECTORY_SEPARATOR . 'jquery-prettyphoto'), '', $from);
 			return
 			$path === DIRECTORY_SEPARATOR.'images'
 					|| (0 === strpos($path, DIRECTORY_SEPARATOR.'images'.DIRECTORY_SEPARATOR.'prettyPhoto'))
