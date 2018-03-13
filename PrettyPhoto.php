@@ -105,6 +105,7 @@ class PrettyPhoto extends InputWidget {
 		PrettyPhotoAsset::register($view);
 		$this -> options = ArrayHelper::merge($this -> options, $this -> clientOptions);
 		echo $this->renderWidget() . "\n";
+		echo Html::endTag($this->tag)."\n";
 	}
 
 	/**
