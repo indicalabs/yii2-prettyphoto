@@ -16,30 +16,18 @@ use yii\web\AssetBundle;
  */
 class PrettyPhotoAsset extends AssetBundle
 {
-// 	public $sourcePath = '@yii/prettyphoto/assets';
-// 	public $js = [
-// 		'js/jquery.prettyPhoto.js',
-// 	];
-	
-// 	public $css = [
-// 			'css/prettyPhoto.css',
-// 	];
-// 	public $img = [
-// 			'images/flags.png',
-// 	];
-// 	public $depends = [
-// 			'yii\jui\JuiAsset',
-// 			'yii\web\JqueryAsset',
-// 	];
 	public $sourcePath = '@bower/jquery-prettyphoto';
 	public $css = [
 			'css/prettyPhoto.css',
 	];
 	public $js = [
-			'js/jquery.prettyPhoto.js',
 	];
+	public $img = [
+				'images/flags.png',
+		];
 	public $depends = [
 			'yii\web\JqueryAsset',
+	        'indicalabs\prettyphoto\PrettyPhotoJqAsset'
 	];
 	public function init()
 	{

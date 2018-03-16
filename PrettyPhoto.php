@@ -5,7 +5,7 @@ use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
-use yii\widgets\InputWidget;
+use yii\base\Widget;
 
 /**
 * PrettyPhoto widget class file
@@ -62,7 +62,7 @@ use yii\widgets\InputWidget;
 * need to be passed to prettyPhoto. Please refer to the {@link http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/ prettyPhoto}
 * documentation for possible options (name=>value pairs).
 */
-class PrettyPhoto extends InputWidget {
+class PrettyPhoto extends Widget {
 	
 	/**
 	* @property array HTML options for the enclosing tag
@@ -105,7 +105,7 @@ class PrettyPhoto extends InputWidget {
 		PrettyPhotoAsset::register($view);
 		$this -> options = ArrayHelper::merge($this -> options, $this -> clientOptions);
 		echo $this->renderWidget() . "\n";
-		echo Html::endTag($this->tag)."\n";
+// 		echo Html::endTag($this->tag)."\n";
 	}
 
 	/**

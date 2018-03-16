@@ -15,9 +15,8 @@
 		}
 	],
 	"require" : {
-		"yiisoft/yii2" : ">=2.0.13.1",
-		"bower-asset/jquery-prettyphoto" : "3.1.6",
-		"npm-asset/vue-images" : ">=1.1.0"
+		"yiisoft/yii2" : ">=2.0.14",
+		"bower-asset/jquery-prettyphoto" : "3.1.6"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "7.0.0"
