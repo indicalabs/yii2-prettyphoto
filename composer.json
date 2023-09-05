@@ -15,7 +15,7 @@
 		}
 	],
 	"require" : {
-		"yiisoft/yii2" : "2.0.40",
+		"yiisoft/yii2" : "2.0.49",
 		"bower-asset/jquery-prettyphoto" : "3.1.6"
 	},
 	"require-dev" : {
